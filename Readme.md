@@ -4,4 +4,6 @@ Esta aplicação com interface web foi desenvolvida com a finalidade de agilizar
 
 Também é um bom exemplo de utilização da API Fetch e funções assincronas.
 
+Para testar pesquise por DP_799523 ou DP_186812, os dados nos arquivos JSON são fake mas o arquivo original tem mais de 1 milhão e 200 mil linhas e funciona bem rápido. 
+
 ![Interface Web](imagens/buscador01.PNG)
