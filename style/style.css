@@ -1,0 +1,63 @@
+body {
+    background-color: #D3D4DD;
+}
+#divTitle {
+    display: block;
+    text-align: center;
+}
+#divMainCenter {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* background-color: blue; */
+}
+#divTable {
+    /* background-color: green; */
+    /* border: 1px black solid; */
+}
+#tab1 {
+    text-align: center;
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+.tbBuscador,
+.tbBuscador tr,
+.tbBuscador td {
+    border: 1px black solid;
+    border-collapse: collapse;
+    margin: 5px;
+    padding: 5px;
+}
+#mensagem {
+    font-size: 13px;
+    color: rgb(2, 2, 250);
+}
+#offset-line {
+    border: 1px solid black;
+    border-color: rgba(0, 0, 0, 0.1);
+}
+input[type="text"]::placeholder {
+    color: rgba(0, 0, 0, 0.3);
+}
+#resultNameScreen {
+    min-width: 150px;
+    display: inline-block;
+}
+#divVersao {
+    font-size: 11px;
+    margin-top: 5px;
+    /* background-color: red; */
+}
+#divFooter {
+    display: flex;
+    justify-content: center;
+    /* background-color: yellow; */
+}
+#divContato {
+    margin-top: 3em;
+    font-size: 12px;
+    /* background-color: aqua; */  
+}
+a {
+    color:black;
+}

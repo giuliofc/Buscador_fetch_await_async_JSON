@@ -1,0 +1,84 @@
+{
+   "dataPoints": [
+      {
+         "xid": "DP_186812",
+         "loggingType": "ON_CHANGE",
+         "intervalLoggingPeriodType": "MINUTES",
+         "intervalLoggingType": "INSTANT",
+         "purgeType": "YEARS",
+         "pointLocator": {
+            "range": "INPUT_REGISTER",
+            "modbusDataType": "BINARY",
+            "additive": 0.0,
+            "bit": 0,
+            "charset": "ASCII",
+            "multiplier": 1.0,
+            "offset": 64101,
+            "registerCount": 0,
+            "settableOverride": false,
+            "slaveId": 1,
+            "slaveMonitor": false,
+            "socketMonitor": false
+         },
+         "eventDetectors": [],
+         "engineeringUnits": "",
+         "chartColour": null,
+         "chartRenderer": null,
+         "dataSourceXid": "DS_482645",
+         "defaultCacheSize": 1,
+         "deviceName": "Eliminar 1",
+         "discardExtremeValues": false,
+         "discardHighLimit": 1.7976931348623157E308,
+         "discardLowLimit": -1.7976931348623157E308,
+         "enabled": false,
+         "intervalLoggingPeriod": 15,
+         "name": "ED1",
+         "purgePeriod": 1,
+         "textRenderer": {
+            "type": "PLAIN",
+            "suffix": ""
+         },
+         "tolerance": 0.0
+      },
+      {
+         "xid": "DP_799523",
+         "loggingType": "ON_CHANGE",
+         "intervalLoggingPeriodType": "MINUTES",
+         "intervalLoggingType": "INSTANT",
+         "purgeType": "YEARS",
+         "pointLocator": {
+            "range": "COIL_STATUS",
+            "modbusDataType": "BINARY",
+            "additive": 0.0,
+            "bit": 0,
+            "charset": "ASCII",
+            "multiplier": 1.0,
+            "offset": 0,
+            "registerCount": 0,
+            "settableOverride": true,
+            "slaveId": 0,
+            "slaveMonitor": false,
+            "socketMonitor": true
+         },
+         "eventDetectors": [],
+         "engineeringUnits": "",
+         "chartColour": null,
+         "chartRenderer": null,
+         "dataSourceXid": "DS_198696",
+         "defaultCacheSize": 1,
+         "deviceName": "Analisador de energia",
+         "discardExtremeValues": false,
+         "discardHighLimit": 1.7976931348623157E308,
+         "discardLowLimit": -1.7976931348623157E308,
+         "enabled": true,
+         "intervalLoggingPeriod": 15,
+         "name": "Monitor de conexão TCP",
+         "purgePeriod": 1,
+         "textRenderer": {
+            "type": "PLAIN",
+            "suffix": ""
+         },
+         "tolerance": 0.0
+      }
+   ]
+}

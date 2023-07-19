@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Busca</title>
+    <link rel="stylesheet" href="style/style.css">
+
+    <script src="scripts/script_data_objects.js" defer></script>
+    <script src="scripts/script_events.js" defer></script>
+
+</head>
+
+<body>
+    <div id="divTitle">
+        <h2>Buscador</h2>
+    </div>
+
+    <div id="divMainCenter">
+
+        <div id="divTable">
+            <div id="offset-line">
+                <table id="tab1" class="tbBuscador">
+                    <!-- Datapoints para teste:
+                        DP_186812  - não esta em nenhuma tela 
+                        DP_799523  - esta em uma tela
+                    -->
+                    <tr>
+                        <td><label for="inpDP">Datapoint:</label></td>
+                        <td><input id="inpDP" type="text" placeholder="DP_xxx"></td>
+                        <td><button id="btBusca2">Buscar</button></td>
+                    </tr>
+                    <!-- <tr>
+                        <td><label for="inpNameDatapoint">Nome datapoint:</label></td>
+                        <td><input id="inpNameDatapoint" type="text"></td>
+                        <td><button id="btBusca1">Buscar</button></td>
+                    </tr> -->
+                    <tr>
+                        <td colspan="3" height="15px"><span id="mensagem"></span></td>
+                    </tr>
+                    <tr>
+                        <td><label for="resultNameDP">Nome DP:</label></td>
+                        <td><span id="resultNameDP"></span></td>
+                        <td><button id="btCopyNameDp">Copy</button></td>
+                    </tr>
+                    <tr>
+                        <td><label for="resultDP">DP_xxx:</label></td>
+                        <td><span id="resultDP"></span></td>
+                        <td><button id="btCopyXidDP">Copy</button></td>
+                    </tr>
+                    <tr>
+                        <td><label for="resultNameScreen">Nome tela:</label></td>
+                        <td><span id="resultNameScreen"></span></td>
+                        <td><button id="btCopyNameScreen">Copy</button></td>
+                    </tr>
+                    <tr>
+                        <td><label for="resultXidScreen"></label>GV_xxx:</td>
+                        <td><span id="resultXidScreen"></span></td>
+                        <td><button id="btCopyXidScreen">Copy</button></td>
+                    </tr>
+                    <tr>
+                        <td><label for="resultUrlScreen"></label>Url tela:</td>
+                        <td><span id="resultUrlScreen"></span></td>
+                        <td><button id="btCopyUrlScreen">Copy</button></td>
+                    </tr>
+                    <tr>
+                        <td><label for="dataSourceName">DS:</label></td>
+                        <td><span id="dataSourceName"></span></td>
+                        <td><button id="btCopyDsName">Copy</button></td>
+                    </tr>
+                    <tr>
+                        <td><label for="dataSourceXid">DS_xxx:</label></td>
+                        <td><span id="dataSourceXid"></span></td>
+                        <td><button id="btCopyXidDs">Copy</button></td>
+                    </tr>
+                </table>
+            </div>
+            <div id="divVersao">V.2023-07-12_21-03</div>
+        </div>
+    </div>
+
+    <div id="divFooter">
+        <div id="divContato">
+            <table>
+                <tr>
+                    <td>Autor: Giulio C. Facchin</td>
+                </tr>
+                <tr>
+                    <td>SRM - GOPS</td>
+                </tr>
+                <tr>
+                    <td>gfacchin@casan.com.br</td>
+                </tr>
+                <tr>
+                    <td>giuliofcc@gmail.com</td>
+                </tr>
+                <tr>
+                    <td>GitHub: <a href="https://www.github.com/giuliofc">giuliofc</a></td>
+                </tr>
+                <tr>
+                    <td>Youtube: <a href="https://youtube.com/@giuliofc4791">@giuliofc4791</a></td>
+                </tr>
+            </table>
+        </div>
+    </div>
+
+
+</html>
